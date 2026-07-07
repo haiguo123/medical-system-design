@@ -1,0 +1,13 @@
+erDiagram
+    patients ||--o{ admissions : subject_id
+    patients ||--o{ icustays : subject_id
+    admissions ||--o{ icustays : hadm_id
+    admissions ||--o{ transfers : hadm_id
+    admissions ||--o{ services : hadm_id
+    admissions ||--o{ labevents : hadm_id
+    admissions ||--o{ emar : hadm_id
+    admissions ||--o{ prescriptions : hadm_id
+    icustays ||--o{ chartevents : stay_id
+    d_items ||--o{ chartevents : itemid
+    d_labitems ||--o{ labevents : itemid
+    emar ||--o{ emar_detail : emar_id

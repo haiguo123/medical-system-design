@@ -1,0 +1,107 @@
+{
+  "admissions": {
+    "hadm_id": 24181354,
+    "admittime": "2196-02-24 14:38:00",
+    "dischtime": "2196-03-04 14:02:00",
+    "insurance": "Medicaid",
+    "race": "BLACK/CAPE VERDEAN",
+    "admission_type": "URGENT",
+    "admission_location": "TRANSFER FROM HOSPITAL",
+    "discharge_location": "SKILLED NURSING FACILITY",
+    "marital_status": "SINGLE"
+  },
+  "patients": {
+    "subject_id": 10003400,
+    "gender": "F",
+    "anchor_age": 72,
+    "anchor_year_group": "2011 - 2013",
+    "dod": "2137-09-02"
+  },
+  "emar": [
+    {
+      "emar_id": "10005909-74",
+      "medication": "Magnesium Sulfate",
+      "event_txt": "Administered",
+      "scheduletime": "2144-10-31 05:56:00",
+      "charttime": "2144-10-31 05:56:00",
+      "storetime": "2144-10-31 05:56:00",
+      "emar_detail": [
+        {
+          "dose_due": "0.25",
+          "dose_due_unit": "mg",
+          "dose_given": "0.25",
+          "dose_given_unit": "mg",
+          "route": "IV",
+          "infusion_rate": "10",
+          "infusion_rate_unit": "mL/hr",
+          "complete_dose_not_given": "No"
+        }
+      ]
+    }
+  ],
+  "prescriptions": [
+    {
+      "drug": "Fentanyl Citrate",
+      "drug_type": "MAIN",
+      "dose_val_rx": "50",
+      "dose_unit_rx": "mcg",
+      "route": "IV",
+      "starttime": "2201-10-30 12:00:00",
+      "stoptime": "2201-10-31 12:00:00"
+    }
+  ],
+  "icustays": [
+    {
+      "stay_id": 300001,
+      "intime": "2144-10-31 06:00:00",
+      "outtime": "2144-11-02 10:00:00",
+      "first_careunit": "Medical ICU",
+      "last_careunit": "Medical ICU",
+      "los": 2.17,
+      "chartevents": [
+        {
+          "charttime": "2144-10-31 07:00:00",
+          "value": "90",
+          "valuenum": 90,
+          "valueuom": "bpm",
+          "d_items": {
+            "itemid": 220045,
+            "label": "Heart Rate",
+            "unitname": "bpm"
+          }
+        }
+      ]
+    }
+  ],
+  "labevents": [
+    {
+      "charttime": "2148-08-16 00:00:00",
+      "value": "15.4",
+      "valuenum": 15.4,
+      "valueuom": "%",
+      "ref_range_lower": 10.5,
+      "ref_range_upper": 15.5,
+      "d_labitems": {
+        "itemid": 51277,
+        "label": "RDW",
+        "fluid": "Blood"
+      }
+    }
+  ],
+  "services": [
+    {
+      "transfertime": "2110-04-11 15:09:36",
+      "prev_service": "MED",
+      "curr_service": "GYN"
+    }
+  ],
+  "transfers": [
+    {
+      "transfer_id": 30030230,
+      "eventtype": "transfer",
+      "careunit": "Medical ICU",
+      "intime": "2174-05-31 14:21:47",
+      "outtime": "2174-06-01 10:30:00"
+    }
+  ]
+}
