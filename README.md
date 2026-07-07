@@ -86,13 +86,21 @@ Each use case includes workload characteristics, query frequency, expected outpu
 
 ```text
 medical-system-design/
+│
+├── README.md
 ├── ER diagram.png
+├── Updated RA Tree.png
+├── Naive RA Tree.png
 ├── queries.md
 ├── Use Cases.md
 ├── Use Cases (context)/
-├── Query-ous Clinicians Presentation - Data514.pptx
+│   ├── Database/
+│   ├── Data/
+│   └── README.md
+│
 ├── Data Governance Analysis.docx
-└── ...
+├── Indices and Caching Structures.docx
+└── Query-ous Clinicians Presentation - Data514.pptx
 ```
 
 ---
